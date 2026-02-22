@@ -1,73 +1,126 @@
-# Welcome to your Lovable project
+# 🌦️ Weatherly – Real-Time Weather App
 
-## Project info
+> A modern and responsive weather application that provides real-time weather updates and forecasts worldwide.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🚀 Overview
 
-There are several ways of editing your application.
+Weatherly is a clean, fast, and user-friendly weather forecasting web application.  
+It allows users to search for any city and instantly view real-time weather conditions, temperature, humidity, wind speed, and multi-day forecasts.
 
-**Use Lovable**
+Designed with simplicity and performance in mind, this project demonstrates API integration, responsive UI design, and dynamic data rendering.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Features
 
-**Use your preferred IDE**
+- 🌍 Search weather by city name
+- 📍 Get weather using current location
+- 🌡️ Real-time temperature updates
+- 📅 5–7 day weather forecast
+- 💧 Humidity and wind speed data
+- 🌅 Sunrise and sunset timing
+- 🌙 Light/Dark mode
+- 📱 Fully responsive (Mobile + Desktop)
+- ⚡ Fast API fetching with error handling
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+**Frontend**
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- (React.js – if used)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+**API**
+- OpenWeatherMap API / WeatherAPI
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**Deployment**
+- Netlify / Vercel / GitHub Pages
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 📸 Screenshots
 
-**Edit a file directly in GitHub**
+### 🏠 Home Page
+![Home Screenshot](./assets/home.png)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 📅 Forecast Page
+![Forecast Screenshot](./assets/forecast.png)
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## ⚙️ Installation & Setup
 
-## What technologies are used for this project?
+### 1️⃣ Clone the Repository
 
-This project is built with:
+```bash
+git clone https://github.com/yourusername/weatherApp.git
+cd WeatherApp
+2️⃣ Install Dependencies (if using Node/React)
+npm install
+3️⃣ Add API Key
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Create a .env file in the root directory:
 
-## How can I deploy this project?
+WEATHER_API_KEY=your_api_key_here
+4️⃣ Run the Project
+npm start
+🌐 Live Demo
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+🔗 https://your-live-project-link.com
 
-## Can I connect a custom domain to my Lovable project?
+📊 How It Works
 
-Yes, you can!
+User enters a city name.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Application sends request to weather API.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+API returns JSON weather data.
+
+Data is processed and dynamically displayed on the UI.
+
+Forecast updates automatically based on location.
+
+📈 Future Improvements
+
+🌎 Interactive weather maps
+
+🔔 Weather alerts & notifications
+
+📊 Historical weather charts
+
+🌪️ Severe weather tracking
+
+🌡️ Unit conversion (Celsius/Fahrenheit toggle)
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the project
+
+Create a feature branch
+git checkout -b feature/YourFeature
+
+Commit changes
+git commit -m "Add YourFeature"
+
+Push to branch
+git push origin feature/YourFeature
+
+Open a Pull Request
+
+🧑‍💻 Author
+
+Devi Jetta
+GitHub: https://github.com/devijetta
+
+LinkedIn: https://linkedin.com/in/yourprofile
+
+📜 License
+
+This project is licensed under the MIT License.
