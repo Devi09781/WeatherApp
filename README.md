@@ -1,4 +1,4 @@
-# 🌦️ Weatherly – Real-Time Weather App
+# 🌦️ SkyCast Weather
 
 > A modern and responsive weather application that provides real-time weather updates and forecasts worldwide.
 
@@ -45,11 +45,10 @@ Designed with simplicity and performance in mind, this project demonstrates API 
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
-![Home Screenshot](./assets/home.png)
+### 🏠 forecast
 
-### 📅 Forecast Page
-![Forecast Screenshot](./assets/forecast.png)
+<img width="1850" height="908" alt="Screenshot 2026-02-22 214012" src="https://github.com/user-attachments/assets/9f8d0d75-f7d2-4eab-8633-7577b36b2b96" />
+
 
 ---
 
@@ -117,10 +116,11 @@ Open a Pull Request
 🧑‍💻 Author
 
 Devi Jetta
-GitHub: https://github.com/devijetta
+GitHub: https://github.com/Devi09781
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://linkedin.com/in/Devijetta
 
 📜 License
 
 This project is licensed under the MIT License.
+
